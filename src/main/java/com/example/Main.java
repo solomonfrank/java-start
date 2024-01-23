@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 // @ComponentScan
 // @EnableAutoConfiguration
 @SpringBootApplication // this is combination of @SpringBootConfiguration + @ComponentScan +
-                       // EnableAutoConfiguration
+// @PropertySource("classpath:abc.properties")
 public class Main {
 
     public static void main(String[] args) {
